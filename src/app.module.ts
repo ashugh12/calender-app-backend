@@ -37,3 +37,5 @@ export class AppModule implements OnModuleInit {
     console.log('Database seeded with initial events.');
   }
 }
+
+//This is my module of events

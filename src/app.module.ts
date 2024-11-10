@@ -28,8 +28,6 @@ export class AppModule implements OnModuleInit {
 
   async onModuleInit() {
     const events = [
-      { title: 'Meeting', date: '2024-11-10' },
-      { title: 'Lunch', date: '2024-11-11' },
     ];
     for (const event of events) {
       await this.eventRepository.save(event);

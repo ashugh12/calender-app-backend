@@ -10,4 +10,10 @@ export class Event {
 
   @Column()
   date: string;
+
+  @Column({ nullable: true })
+  description: string;
+
+  @Column({ nullable: true, type: 'text' })
+  media: string;  // String to store base64 media data
 }
